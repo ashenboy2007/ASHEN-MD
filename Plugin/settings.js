@@ -395,7 +395,7 @@ cmd({
         'image': {
           'url': config.LOGO
         },
-        'caption': "*_⚙️ KAVIDU-MD SETTINGS INFO ⚙️_*",
+        'caption': "*_⚙️ ⚞● ASHEN-MD ●⚟ SETTINGS INFO ⚙️_*",
         'footer': config.FOOTER,
         'buttons': [{
           'buttonId': "Video quality list",
