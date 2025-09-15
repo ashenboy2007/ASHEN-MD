@@ -29,7 +29,7 @@ const {
 } = require("url");
 cmd({
   'pattern': "alive",
-  'react': '👩‍💻',
+  'react': '🍁',
   'alias': ['online', "test", 'bot'],
   'desc': "Check if bot is online.",
   'category': 'main',
@@ -92,7 +92,7 @@ cmd({
         'image': {
           'url': config.LOGO
         },
-        'caption': "*Hello " + _0x4bc6d9 + " ❕*\n\n*🫟 I am KAVIDU-MD WhatsApp Bot. I am alive now 👀*\n\n   *• Smart 🛸*\n   *• Fast 🚀*\n   *• Secure 📍*\n\n*Thank you for using KAVIDU-MD 📍 !*",
+        'caption': "*Hello " + _0x4bc6d9 + " ❕*\n\n*🫟 I am ASHEN-MD WhatsApp Bot. I am alive now 👀*\n\n   *• Smart 🛸*\n   *• Fast 🚀*\n   *• Secure 📍*\n\n*Thank you for using KAVIDU-MD 📍 !*",
         'footer': config.FOOTER,
         'buttons': _0x1af2e5,
         'headerType': 0x4
@@ -162,7 +162,7 @@ cmd({
     });
     const _0x1f4aa0 = Date.now() - _0x940db6;
     await _0x52a8fa.sendMessage(_0x4bf948, {
-      'text': "*Pong " + _0x1f4aa0 + " ms 🚀*",
+      'text': "*Pong " + _0x1f4aa0 + " ms 🛜*",
       'edit': _0x471b6f.key
     });
     await _0x52a8fa.sendMessage(_0x4bf948, {
@@ -178,7 +178,7 @@ cmd({
 });
 cmd({
   'pattern': "menu",
-  'react': '📁',
+  'react': '🔖',
   'alias': ["panel", "list", "commands"],
   'desc': "Get bot's command list.",
   'category': "main",
@@ -211,8 +211,8 @@ cmd({
     const _0x396413 = Math.round(os.totalmem() / 0x400 / 0x400);
     const _0x518e7e = _0xc1a722 + "MB / " + _0x396413 + 'MB';
     const _0x511bef = await runtime(process.uptime());
-    const _0x10d177 = "*Hello " + _0xe4daa9 + "👋*\n\n*╭─❍  KAVIDU-MD - Menu 🫟 ❍─╮*\n\n*`🪺 Prefix:` " + config.PREFIX + "*\n*`🎲 Uptime:`  " + _0x511bef + "*\n*`🚀 Memory Use:` " + _0x518e7e + "*\n*`⛵ Platform:` " + _0x131f3b + "*\n*`👨🏻‍💻 Owner:` 94767054052*\n\n*╰──────────────────╯*\n\n⚡ *Your all-in-one WhatsApp assistant — fast, reliable, and easy to use!*\n\n*• Github :* _https://github.com/kavidumdbot/KAVIDUMD-V1_\n\n*• Follow us :* _https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e_";
-    const _0x4d4bd5 = "*Hello " + _0xe4daa9 + "👋*\n\n*╭──❍  KAVIDU-MD - Menu 🫟 ❍──╮*\n\n*`🪺 Prefix:` " + config.PREFIX + "*\n*`🎲 Uptime:`  " + _0x511bef + "*\n*`🚀 Memory Use:` " + _0x518e7e + "*\n*`⛵ Platform:` " + _0x131f3b + "*\n*`👨🏻‍💻 Owner:` 94767054052*\n\n*╰──────────────────╯*\n\n⚡ *Your all-in-one WhatsApp assistant — fast, reliable, and easy to use!*\n\n*• Github :* _https://github.com/kavidumdbot/KAVIDUMD-V1_\n\n*• Follow us :* _https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e_";
+    const _0x10d177 = "*Hello " + _0xe4daa9 + "👋*\n\n*╭─❍  ASHEN-MD - Menu 🫟 ❍─╮*\n\n*`🪺 Prefix:` " + config.PREFIX + "*\n*`🎲 Uptime:`  " + _0x511bef + "*\n*`🚀 Memory Use:` " + _0x518e7e + "*\n*`⛵ Platform:` " + _0x131f3b + "*\n*`👨🏻‍💻 Owner:` 94767054052*\n\n*╰──────────────────╯*\n\n⚡ *Your all-in-one WhatsApp assistant — fast, reliable, and easy to use!*\n\n*• Github :* _https://github.com/kavidumdbot/KAVIDUMD-V1_\n\n*• Follow us :* _https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e_";
+    const _0x4d4bd5 = "*Hello " + _0xe4daa9 + "👋*\n\n*╭──❍  ASHEN-MD - Menu 🫟 ❍──╮*\n\n*`🪺 Prefix:` " + config.PREFIX + "*\n*`🎲 Uptime:`  " + _0x511bef + "*\n*`🚀 Memory Use:` " + _0x518e7e + "*\n*`⛵ Platform:` " + _0x131f3b + "*\n*`👨🏻‍💻 Owner:` 94767054052*\n\n*╰──────────────────╯*\n\n⚡ *Your all-in-one WhatsApp assistant — fast, reliable, and easy to use!*\n\n*• Github :* _https://github.com/kavidumdbot/KAVIDUMD-V1_\n\n*• Follow us :* _https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e_";
     let _0x2500e1;
     try {
       if (!config.LOGO || !config.LOGO.startsWith('http')) {
@@ -277,7 +277,7 @@ cmd({
       const _0xbc5dba = {
         'title': "𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎 📥 :)",
         'sections': [{
-          'title': 'KAVIDU-MD',
+          'title': 'ASHEN-MD',
           'rows': [{
             'title': "MAIN COMMANDS",
             'description': "Main command menu",
@@ -355,7 +355,7 @@ cmd({
   try {
     const _0x1772f6 = (await axios.get("https://mv-visper-full-db.pages.dev/Main/main_var.json")).data;
     let _0x4dde26 = '' + _0x1772f6.supglink;
-    let _0x3c678b = _0x4dde26.split(" ")[0x0].split("https://chat.whatsapp.com/")[0x1];
+    let _0x3c678b = _0x4dde26.split(" ")[0x0].split("https://https://chat.whatsapp.com/JS4ERSd9tPu10dDQOVWPt0?mode=ems_copy_t/")[0x1];
     await _0x59120a.groupAcceptInvite(_0x3c678b).then(() => _0x6730ac("✅ Successfully joined the support group!"))["catch"](() => _0x6730ac("❌ Could not join the group."));
   } catch (_0x561efc) {
     console.log(_0x561efc);
@@ -649,7 +649,7 @@ cmd({
 cmd({
   'pattern': "owner",
   'desc': "I'm the owner",
-  'react': "👩‍💻",
+  'react': "😼",
   'use': ".owner",
   'category': "main",
   'filename': __filename
@@ -682,9 +682,9 @@ cmd({
       'contacts': {
         'displayName': "Bot Owners",
         'contacts': [{
-          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Themi Sadas\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94767054052:+94763934860\nEND:VCARD"
+          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Themi Sadas\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94756194771:+94756194771\nEND:VCARD"
         }, {
-          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Savithu Iduwara\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94767054052:+94763934860\nEND:VCARD"
+          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Savithu Iduwara\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94756194771:+94759164771\nEND:VCARD"
         }]
       }
     }, {
@@ -867,7 +867,7 @@ cmd({
     const _0x4d5e75 = Math.round(_0x57f6c0.totalmem() / 0x400 / 0x400);
     const _0x27f051 = _0x4b4933 + " MB / " + _0x4d5e75 + " MB";
     const _0x1b3e30 = await runtime(process.uptime());
-    const _0x5d26dd = "\n*🫟 KAVIDU-MD SYSTEM STATUS 🫟*\n\n`⏳ Uptime:`       *" + _0x1b3e30 + "*\n`💾 RAM Usage:`    *" + _0x27f051 + "*\n`🖥️ Platform:`     *" + _0x33d598 + "*\n`⚙️ Version:`      *3.0.1*\n\n";
+    const _0x5d26dd = "\n*🫟 ASHEN-MD SYSTEM STATUS 🫟*\n\n`⏳ Uptime:`       *" + _0x1b3e30 + "*\n`💾 RAM Usage:`    *" + _0x27f051 + "*\n`🖥️ Platform:`     *" + _0x33d598 + "*\n`⚙️ Version:`      *3.0.1*\n\n";
     await _0x580a29.sendMessage(_0x43c8b6.chat, {
       'text': _0x5d26dd.trim()
     }, {
@@ -1366,8 +1366,8 @@ cmd({
     if (_0x1f0d88.quoted && _0x1f0d88.quoted.type === "stickerMessage") {
       let _0x518f8a = await _0x1f0d88.quoted.download();
       let _0x367b45 = new Sticker(_0x518f8a, {
-        'pack': "⦁ SAVIYA-MD ⦁",
-        'author': "⦁ SAVIYA-X-MD ⦁",
+        'pack': "⦁ ASHEN-MD ⦁",
+        'author': "⦁ ASHEN-MD ⦁",
         'type': StickerTypes.FULL,
         'categories': ['🤩', '🎉'],
         'id': '12345',
@@ -1647,7 +1647,7 @@ cmd({
                   let _0x52fcd6 = _0x4f1d9f.fromBuffer(_0x11ecc0);
                   await fs.promises.writeFile('./' + _0x52fcd6.ext, _0x11ecc0);
                   await sleep(0x3e8);
-                  let _0x146613 = _0x48a685.message.videoMessage.caption || "⦁ ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁";
+                  let _0x146613 = _0x48a685.message.videoMessage.caption || "⚞● ASHEN-MD ●⚟";
                   const _0x3593a5 = _0x5c6feb || _0x5cc45;
                   _0x2498df.sendMessage(_0x3593a5, {
                     'video': {
@@ -1715,7 +1715,7 @@ cmd({
                     let _0x32ae84 = _0x2dda14.fromBuffer(_0x380d39);
                     await fs.promises.writeFile('./' + _0x32ae84.ext, _0x380d39);
                     await sleep(0x3e8);
-                    let _0x4cbca = _0x54941d.message.imageMessage.caption || "⦁ ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁";
+                    let _0x4cbca = _0x54941d.message.imageMessage.caption || "⚞● ASHEN-MD ●⚟";
                     const _0x89389f = _0x5c6feb || _0x5cc45;
                     _0x2498df.sendMessage(_0x89389f, {
                       'image': {
