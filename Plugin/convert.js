@@ -150,7 +150,7 @@ cmd({
       }
       let _0x40e2bf = new Sticker(_0x30701a + ".jpg", {
         'pack': _0x36eb45,
-        'author': "KAVIDU-MD",
+        'author': "ASHEN-MD",
         'type': _0x4665aa.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
         'categories': ['🤩', '🎉'],
         'id': "12345",
